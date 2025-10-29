@@ -69,7 +69,7 @@ int main(int argc, char **argv) {
     fprintf(out, " };\n");
 
   }
-  fprintf(out, "bool get_resource(const char *name, size_t *size, const uint8_t **data) {\n");
+  fprintf(out, "bool get_resource(const char *name, size_t *size, uint8_t **data) {\n");
   for(int i=2; i < argc; i++) {
     fprintf(out,
             "  if(strcmp(name, \"%s\")==0) {\n"
