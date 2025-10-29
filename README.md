@@ -5,7 +5,7 @@ and have them compressed via [lzav](https://github.com/avaneev/lzav).
 
 ## Usage
 
-* compile with `make res2h`
+* compile with `make`
 * invoke `./res2h resources.h file1 ... fileN`
 * include in your C project `#include "resources.h"`
 * get resource data via `get_resource("file1", &size, &data)`
