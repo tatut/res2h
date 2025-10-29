@@ -1,0 +1,3 @@
+[submodule "lzav"]
+	path = lzav
+	url = https://github.com/avaneev/lzav
